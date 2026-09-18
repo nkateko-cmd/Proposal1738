@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: rgb(48, 131, 66);
+    font-size: 110%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+p{
+    border-style: outset;
+    border-width: 5px;
+    border-radius: 30px;
+    padding: 3%;
+}
+h1{
+    font-size: 500%;
+}
+#logo{
+    
+    width: 150px;
+    height: 150px;
+}
+#headg{
+    background-color: darkgoldenrod;
+}
+
+#box1{
+    border-radius: 10%;
+}
+#box6{
+
+    position: relative;
+
+    bottom: 379px;
+    right: 6px;
+    border-radius: 10%;
+}
+#box3{
+    position: relative;
+
+    bottom: 333px;
+    left: 0px;
+    right: 150px;
+    border-radius: 10%;
+}
+
+
+#box5{
+    position: relative;
+    border-radius: 100%;
+    left: 200px;
+    top: 100px;
+}
+#box4{
+    position: relative;
+
+    left: 650px;
+    bottom: 80px;
+    border-radius: 100%;
+}
+
+
+#box7{
+
+    height: 345px;
+    position: relative;
+
+    left: auto;
+    right: 156px;
+    top: 350px;
+    border-radius: 10%;
+}
+#box2{
+    position: relative;
+
+    left: 850px;
+    right: 500px;
+    border-radius: 10%;
+}
+#box8{
+    position: relative;
+
+    left: auto;
+    right: 156px;
+    border-radius: 10%;
+}
+a:link{
+    color:antiquewhite;
+}
+/*Responsive design
+Mobile version
+@media screen and (max-width: 600px) {
+    .main-nav{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.8rem;
+    }
+    .hero{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1.5rem;
+    }
+    .hero-image img{
+        width: 300px;
+    }
+    .hero-info{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    .hero-info h1{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .hero-info p{
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .hero-button{
+        font-size: 0.8rem;
+        gap: 8px
+    }
+}*/
